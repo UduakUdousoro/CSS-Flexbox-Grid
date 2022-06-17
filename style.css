@@ -1,0 +1,81 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&family=Lexend+Deca:wght@100;200&display=swap');
+ 
+body{
+    /* width: 1445px; */
+    background-color: hsl(0, 0%, 95%);
+}
+nav{
+    padding: 20px;
+    text-align: right; 
+}
+a{
+    padding-right: 10px;
+}
+a:visited{
+    color: hsl(0, 0%, 0%);
+}
+a:hover{
+    color: hsl(96, 82%, 48%);
+}
+main{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+main div{
+    width: 200px;
+    height: 360px;
+    padding: 1.5rem;
+}
+.title{
+    font-family: 'Lexend Deca';
+    font-weight: 400;
+    padding: 20px 0 0 0;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    padding: 30px 0 50px 0;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Big Shoulders Display';
+    font-weight: 700;
+}
+input{
+    width: 100px;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+
+    /* color: hsl(0, 0%, 95%); */
+}
+.sedans input{
+    color: hsl(31, 77%, 52%);
+}
+.suvs input{
+    color: hsl(184, 100%, 22%);
+}
+.luxury input{
+    color: hsl(179, 100%, 13%);
+}
+input:hover{
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
